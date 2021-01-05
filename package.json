@@ -21,8 +21,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_PATH=src react-scripts start",
+    "build": "cross-env NODE_PATH=src react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^17.0.0",
     "@types/react-cookies": "^0.1.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-modal": "^3.10.6",
