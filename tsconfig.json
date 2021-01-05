@@ -1,0 +1,7 @@
+{
+  "extends": "./paths.json",
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react"
+  }
+}
